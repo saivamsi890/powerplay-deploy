@@ -1,5 +1,6 @@
 {
   "name": "playpower",
+  "homepage": "https://saivamsi890.github.io/powerplay-deploy",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,6 +11,7 @@
     "date-fns": "^3.0.4",
     "date-fns-tz": "^2.0.0",
     "framer-motion": "^10.18.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dnd": "^16.0.1",
     "react-dnd-html5-backend": "^16.0.1",
@@ -23,6 +25,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+      "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
