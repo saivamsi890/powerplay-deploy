@@ -1,0 +1,72 @@
+.item-prdt {
+    display: inline-block;
+    overflow-wrap: break-word;
+
+  }
+
+.box-pdt-1-pb {
+  
+    background-color: #7cedff;
+    border-radius: 15px;
+    margin-top: 20px;
+    row-gap: 30px;
+    position: relative;
+    display: block;
+    width:650px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 190px;
+    flex: 0 0 190px;
+    height: 240px;
+    padding: 25px 16px 25px 25px;
+    color: #000000;
+    border-radius: 20px;
+    font-size: 13px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: all .2s ease-out;
+    overflow-wrap: break-word;
+    color: black;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+  }
+  
+  .box-pdt-img {
+    position: absolute;
+    display: block;
+    top: 110px;
+    left: 50px;
+  }
+  
+  .box-pdt-1 .img-card {
+    position: absolute;
+    display: block;
+  
+  }
+  
+  .box-pdt-1 span {
+    display: block;
+  }
+  
+  .tb-no {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    z-index: 2;
+    position: relative;
+  }
+
+  .cstbtn{
+    position: relative;
+    top:-300px !important;
+  }
+
+
+  @media screen and (max-width: 480px) {
+    .box-pdt-1-pb{
+      width: 300px;
+      height: 500px;
+    }
+ 
+    .cstbtn{
+      top: auto;
+    }
+  }
